@@ -25,4 +25,5 @@ urlpatterns = [
     path('primos/',views.es_primo, name="primos"),
     path('primos/<int:a>/',views.es_primo, name="primos"),
     path('primos/<int:a>/<int:b>',views.es_primo, name= "primos"),
+    path('examen/', views.examen, name='examen'),
 ]

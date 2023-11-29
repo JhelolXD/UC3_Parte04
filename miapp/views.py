@@ -23,3 +23,13 @@ def es_primo(request,a=0,b=100):
             primos.append(i)
 
     return render(request,'primos.html',{'primos':primos,'a':a,'b':b})
+
+def examen(request):
+    examen = [
+        {'name': 'Ayquipa Estrada Jheremy William', 'github' : 'https://github.com/JhelolXD/UC3_Parte01.git'},
+        {'name': 'Urbisagastegui Huamani Jhon Antony', 'github' : 'https://github.com/UnUrbiSalvaje/UC3_Parte02'},
+        {'name': 'Talledo Vega Samuel Elias', 'github' : 'https://github.com/Santrax211/UC3-Parte03.git'},
+        {'name': 'Ayquipa Estrada Jheremy William', 'github' : 'https://github.com/JhelolXD/UC3_Parte04.git'},
+        
+    ]
+    return render(request, 'examen.html', {'examen': examen})

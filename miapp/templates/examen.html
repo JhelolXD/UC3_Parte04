@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block title %}
+    examen
+{% endblock %}
+{% block content %}
+<h2>Examenes</h2>
+    <ul>
+    {% for l in examen %}
+        <li>{{l}}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
