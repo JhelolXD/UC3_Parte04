@@ -83,3 +83,10 @@ footer{
     border-radius: 2px;
     margin: 0 auto;
 }
+
+#logotipo img{
+    display: block;
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+}
